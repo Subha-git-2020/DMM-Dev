@@ -1,0 +1,37 @@
+{
+  "orgName": "Subha DMM Dev",
+  "edition": "Partner Developer",
+  "hasSampleData": false,
+  "adminEmail": "releaseDMM+devorg@copado.com",
+  "language": "en_US",
+  "features": ["API", "AuthorApex", "DebugApex", "EnableSetPasswordInApi", "Workflow"],
+  "settings": {
+    "securitySettings": {
+      "sessionSettings": {
+        "sessionTimeout": "TwelveHours"
+      },
+      "canUsersGrantLoginAccess": false,
+      "enableAdminLoginAsAnyUser": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true,
+      "enableUsersAreLightningOnly": true,
+      "enableNavPersonalizationOptOut": false
+    },
+    "chatterSettings": {
+      "enableChatter": false
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "apexSettings": {
+      "enableApexApprovalLockUnlock": false,
+      "enableApexCtrlImplicitWithSharingPref": true,
+      "enableApexPropertyGetterPref": true,
+      "enableCompileOnDeploy": true
+    },
+    "deploymentSettings": {
+      "doesSkipAsyncApexValidation": true
+    }
+  }
+}
