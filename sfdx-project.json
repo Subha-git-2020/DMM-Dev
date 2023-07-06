@@ -1,0 +1,27 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Copado Mulesoft",
+      "versionName": "ver 2.0",
+      "versionNumber": "2.0.0.NEXT",
+      "ancestorVersion": "HIGHEST",
+      "definitionFile": "config/project-scratch-def.json",
+      "dependencies": [
+        {
+          "package": "Copado Deployer@20.12"
+        }
+      ]
+    }
+  ],
+  "namespace": "cmcMule",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "Copado Mulesoft": "0Ho5p000000fxbJCAQ",
+    "Copado Deployer@20.12": "04t5p000000efKx",
+    "Copado Mulesoft@1.6.0-2-master": "04t5p00000178aGAAQ",
+    "Copado Mulesoft@2.0.0-1-master": "04t5p000000Xdt4AAC"
+  }
+}
